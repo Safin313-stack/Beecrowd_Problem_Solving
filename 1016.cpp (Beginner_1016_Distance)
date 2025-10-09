@@ -1,0 +1,12 @@
+#include <iostream>
+#include <iomanip>60
+using namespace std;
+int main()
+{
+    int X ;
+    cin >> X ;
+    double S = X * 2 ;
+    cout << S <<" minutos" << endl ;
+    return 0 ;
+}
+
