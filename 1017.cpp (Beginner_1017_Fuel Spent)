@@ -1,0 +1,12 @@
+#include <iostream>
+#include <iomanip>
+using namespace std;
+int main()
+{
+    double X , Y;
+    cin >> X >> Y ;
+    double S = (X * Y) / 12 ;
+    cout << fixed << setprecision(3) << S << endl ;
+    return 0 ;
+}
+
